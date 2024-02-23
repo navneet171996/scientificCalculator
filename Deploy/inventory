@@ -1,0 +1,2 @@
+[localhost]
+nabaneet ansible_connection=local
