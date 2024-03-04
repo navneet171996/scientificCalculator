@@ -35,7 +35,7 @@ public class CalculatorTest {
     public void testPower() {
         assertEquals(8, Calculator.pow(2, 3), 0);
         assertEquals(1, Calculator.pow(5, 0), 0);
-        assertEquals(1, Calculator.pow(0, 10), 0);
+        assertEquals(0, Calculator.pow(0, 10), 0);
     }
 
     @Test
