@@ -1,7 +1,7 @@
 FROM openjdk:17
 
 # Install necessary X11 libraries
-RUN apt-get update && apt-get install -y libxext6
+RUN yum update -y && yum install -y libXext
 
 COPY ./target/CalculatorApp-1.0-SNAPSHOT.jar ./
 WORKDIR ./
