@@ -121,21 +121,15 @@ public class Calculator implements ActionListener{
     }
 
     public static double sqrt(double x){
-        if(x == 1)
-            return 1;
-        return x * factorial(x-1);
+        return Math.sqrt(x);
     }
 
     public static double log(double x){
-        if(x == 1)
-            return 1;
-        return x * factorial(x-1);
+        return Math.log(x);
     }
 
     public static double pow(double x, double y){
-        if(x == 1)
-            return 1;
-        return x * factorial(x-1);
+        return Math.pow(x, y);
     }
 
     public static double add(double x, double y){
